@@ -1,0 +1,37 @@
+# === Build Artifacts ===
+/build/
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# === SDL Runtime Files (Windows) ===
+SDL2.dll
+SDL2_image.dll
+SDL2_ttf.dll
+
+# === IDE / Editor Junk ===
+.vscode/
+*.code-workspace
+*.user
+*.suo
+*.vcxproj*
+*.log
+*.DS_Store
+Thumbs.db
+
+# === Backup / Misc ===
+*~
+*.bak
+
+# === Libraries (optional, if not part of repo) ===
+/src/lib/
+/src/include/
+
+# === Mac-specific ===
+.DS_Store
